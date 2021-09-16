@@ -124,6 +124,7 @@ export EDITOR='vim'
 alias ll='exa -ahl --group-directories-first'
 alias less='bat'
 alias cat='bat -pp'
+alias yip='yay -Rncs'
 
 source <(kubectl completion zsh)
 source <(minikube completion zsh)
